@@ -17,10 +17,12 @@
         }
     ],
     "require-dev": {
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "friendsofphp/php-cs-fixer": "^3.11"
     },
     "scripts": {
-        "test":"phpunit  -c phpunit.xml --colors=always"
+        "test":"phpunit  -c phpunit.xml --colors=always",
+        "cs-fix":"php-cs-fixer fix $1"
     },
     "require": {
         "ext-json": "*"
