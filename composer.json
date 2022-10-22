@@ -1,5 +1,6 @@
 {
     "name": "lixinhan/copy",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Lixinhan\\Copy\\": "src/"
